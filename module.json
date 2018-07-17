@@ -1,22 +1,13 @@
 {
   "name": "microbit",
-  "version": "0.0.1",
-  "description": "llllllllllllll",
-  "keywords": [],
-  "author": "",
+  "version": "2.0.0-rc10",
+  "description": "A simple to use collection of the most commonly used components in the micro:bit runtime",
   "license": "MIT",
   "dependencies": {
-    "mbed-classic": "lancaster-university/mbed-classic#microbit_hfclk+mb6",
-    "ble": "lancaster-university/BLE_API#v2.5.0+mb3",
-    "ble-nrf51822": "lancaster-university/nrf51822#v2.5.0+mb7",
-    "nrf51-sdk": "lancaster-university/nrf51-sdk#v2.2.0+mb4"
+    "microbit-dal": "eternal-dragon/DouBaoBit-Dal#0.0.2"
   },
   "extraIncludes": [
-    "inc/core",
-    "inc/types",
-    "inc/drivers",
-    "inc/bluetooth",
-    "inc/platform",
     "inc"
-  ]
+  ],
+  "targetDependencies": {}
 }
